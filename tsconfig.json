@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+	  "target": "es5",
+	  "module": "commonjs",
+	  "allowJs": true, // Allow JavaScript files to be included in the compilation
+	  "checkJs": false, // Disable type checking for JavaScript files
+	  "jsx": "react",
+	  "esModuleInterop": true,
+	  "strict": true,
+	  "moduleResolution": "node",
+	  "resolveJsonModule": true,
+	  "baseUrl": "./src",
+	  "paths": {
+		"*": ["node_modules/*", "src/types/*"]
+	  },
+	  "types": ["node", "react", "react-native"]
+	},
+	// "include": ["src/**/*.tsx", "src/**/*.ts", "src/**/*.js"], // Include TypeScript and JavaScript files in compilation
+	"include": [
+		"src/**/*.ts",
+		"src/**/*.tsx",
+		"src/**/*.js",
+		"src/**/*.jsx"
+	  ],
+	"exclude": ["node_modules"]
+  }

@@ -1,0 +1,14 @@
+@font-face {
+    src: url(src/assets/fonts/Montserrat-Bold.ttf);
+    font-family: 'Montserrat-Bold';
+}
+
+@font-face {
+    src: url(${FA5IconSolid});
+    font-family: 'FontAwesome5_Solid';
+}
+
+@font-face {
+    src: url(${FA5IconRegular});
+    font-family: 'FontAwesome5_Regular';
+}

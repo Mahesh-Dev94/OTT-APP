@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-rvistaott-dev-151721-authRole",
+      "UnauthRoleArn": "arn:aws:iam::425069487910:role/amplify-rvistaott-dev-151721-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::425069487910:role/amplify-rvistaott-dev-151721-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-rvistaott-dev-151721-deployment",
+      "UnauthRoleName": "amplify-rvistaott-dev-151721-unauthRole",
+      "StackName": "amplify-rvistaott-dev-151721",
+      "StackId": "arn:aws:cloudformation:us-west-2:425069487910:stack/amplify-rvistaott-dev-151721/430d3790-af9d-11ee-adf7-060efad23629",
+      "AmplifyAppId": "d1sn1fd1yyhwz"
+    },
+    "categories": {
+      "auth": {
+        "Rvista": {}
+      },
+      "storage": {
+        "OTTUserImages": {}
+      }
+    }
+  }
+}

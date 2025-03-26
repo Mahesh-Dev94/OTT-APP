@@ -1,0 +1,13 @@
+{
+  "resourceName": "OTTUserImages",
+  "policyUUID": "c8f38bb5",
+  "bucketName": "ott-user-images-bucket1",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "CREATE_AND_UPDATE"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE"
+  ],
+  "groupAccess": {}
+}
