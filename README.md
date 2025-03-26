@@ -1,49 +1,125 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+# OTT-APP
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+A React Native based Over-The-Top (OTT) media service application designed for seamless deployment across a wide range of platforms:
 
----
+* **Mobile:** Android, iOS
+* **Smart TVs:** Android TV, Apple TV
+* **Web:** Modern web browsers
 
-## Edit a file
+![App Screenshot - Mobile](assets/3.png)
+![App Screenshot - Mobile](assets/5.png)
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+## Table of Contents
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+* [Features](#features)
+* [Getting Started](#getting-started)
+    * [Prerequisites](#prerequisites)
+    * [Installation](#installation)
+    * [Running the App](#running-the-app)
+* [Technology Stack](#technology-stack)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
 
----
+## Features
 
-## Create a file
+* **Cross-Platform Compatibility:** Single codebase for multiple platforms.
+* **High-Quality Video Streaming:** Optimized for smooth playback.
+* **User Authentication:** Secure user login and registration.
+* **Content Management:** Easy organization and categorization of media.
+* **Search and Discovery:** Intuitive search and content discovery features.
+* **Responsive UI:** Adaptable interface for various screen sizes.
+* **Playback Controls:** Standard playback controls (play, pause, seek, volume).
+* **Adaptive Bitrate Streaming (ABR):** Dynamic video quality adjustment.
+* (Add other specific features of your app here)
 
-Next, you’ll add a new file to this repository.
+![App Screenshot - TV](assets/2.png)
+![App Screenshot - TV](assets/4.png)
+![App Screenshot - TV](assets/6.png)
+![App Screenshot - TV](assets/7.png)
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
+![App Screenshot - Web](assets/1.png)
 
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
+## Getting Started
 
----
+### Prerequisites
 
-## Clone a repository
+Before you begin, ensure you have the following installed:
 
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
+* [Node.js](https://nodejs.org/) (LTS recommended)
+* [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+* [React Native CLI](https://reactnative.dev/docs/environment-setup)
+* [Android Studio](https://developer.android.com/studio) (for Android development)
+* [Xcode](https://developer.apple.com/xcode/) (for iOS and Apple TV development)
+* (Add any other specific prerequisites for your project)
 
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
+### Installation
 
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+1.  Clone the repository:
 
+    ```bash
+    git clone [https://github.com/Mahesh-Dev94/OTT-APP.git](https://github.com/Mahesh-Dev94/OTT-APP.git)
+    cd OTT-APP
+    ```
+
+2.  Install dependencies:
+
+    ```bash
+    npm install  # or yarn install
+    ```
+
+3.  (Add any platform specific installation instructions here)
+
+### Running the App
+
+* **Android:**
+
+    ```bash
+    npx react-native run-android
+    ```
+
+* **iOS:**
+
+    ```bash
+    npx react-native run-ios
+    ```
+
+* **Web:**
+
+    ```bash
+    npx react-native start
+    # Then open your browser at the prompted url.
+    ```
+
+* **Android TV/Apple TV:**
+    * (Add specific instructions for tv here)
+
+## Technology Stack
+
+* **React Native:** Core framework
+* **JavaScript/TypeScript:** Programming language
+* (Add any other relevant libraries or frameworks)
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1.  Fork the repository.
+2.  Create a new branch (`git checkout -b feature/your-feature`).
+3.  Make your changes.
+4.  Commit your changes (`git commit -am 'Add some feature'`).
+5.  Push to the branch (`git push origin feature/your-feature`).
+6.  Create a new Pull Request.
+
+## License
+
+(Add your license information here. For example, MIT License)
+
+## Contact
+
+* Mahesh Vishwakarma - [ionictest2017@gmail.com](mailto:ionictest2017@gmail.com)
+* Project Link: [https://github.com/Mahesh-Dev94/OTT-APP](https://github.com/Mahesh-Dev94/OTT-APP)
 
 # after Installing node modules, 
 # Go to node_modules -> react-native-web-> dist -> modules-> prefixStyles -> Static.js
@@ -63,5 +139,3 @@ let resolvedSrc = null;
     resolvedSrc = resolveImageSource(source);
   }
  
-# OTT-APP
-A React Native based Over-The-Top media service application designed for deployment across a wide range of platforms, including Android and iOS mobile devices, Android TV and Apple TV smart televisions, and web browsers.
