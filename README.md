@@ -7,8 +7,8 @@ A React Native based Over-The-Top (OTT) media service application designed for s
 * **Smart TVs:** Android TV, Apple TV
 * **Web:** Modern web browsers
 
-![App Screenshot - Mobile](assets/3.png)
-![App Screenshot - Mobile](assets/5.png)
+<img src="assets/3.png" alt="App Screenshot - Mobile" width="300">
+<img src="assets/5.png" alt="App Screenshot - Mobile" width="300">
 
 ## Table of Contents
 
@@ -33,13 +33,12 @@ A React Native based Over-The-Top (OTT) media service application designed for s
 * **Playback Controls:** Standard playback controls (play, pause, seek, volume).
 * **Adaptive Bitrate Streaming (ABR):** Dynamic video quality adjustment.
 * (Add other specific features of your app here)
+<img src="assets/2.png" alt="App Screenshot - TV" width="450">
+<img src="assets/4.png" alt="App Screenshot - TV" width="450">
+<img src="assets/6.png" alt="App Screenshot - TV" width="450">
+<img src="assets/7.png" alt="App Screenshot - TV" width="450">
 
-![App Screenshot - TV](assets/2.png)
-![App Screenshot - TV](assets/4.png)
-![App Screenshot - TV](assets/6.png)
-![App Screenshot - TV](assets/7.png)
-
-![App Screenshot - Web](assets/1.png)
+<img src="assets/1.png" alt="App Screenshot - Web" width="600">
 
 ## Getting Started
 
